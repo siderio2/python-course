@@ -17,13 +17,13 @@ print("\nOperadores de comparación:")
 print("5 > 3:", 5 > 3)        # True
 print("5 < 3:", 5 < 3)        # False
 print("5 == 5:", 5 == 5)      # True (igualdad)
-print("5 != 3:", 5 != 3)      # True (desigualdad)
+print("5 != 3:", 5 != 3)      # type: ignore # True (desigualdad)
 print("5 >= 5:", 5 >= 5)      # True (mayor o igual que)
 print("5 <= 3:", 5 <= 3)      # False (menor o igual que)
 
 print("\nComparación de cadenas:")
 print("'manzana' < 'pera':", "manzana" < "pera") # True
-print("'Hola' == 'hola'", "Hola" == "hola") # False
+print("'Hola' == 'hola'", "Hola" == "hola") # type: ignore # False
 
 # Operadores lógicos: and, or, not
 print("\nOperadores lógicos:")

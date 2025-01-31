@@ -12,10 +12,11 @@
 - Strings
 - Ejercicios
 
-## Segunda Clase 02_flow_control
+## Segunda clase 02_flow_control:
 
 - Sentencias condicionales
 - Operadores lógicos
 - Más sobre los booleanos
 - Tipos de datos que se evalúan como booleanos
 - Operadores ternarios
+- Trabajo con listas
